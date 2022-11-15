@@ -4,7 +4,7 @@ module Cardano.Kuber.Api(
         txPayTo
     ,   txPayToPkh
     ,   txPayToScript
-    ,   txPayToScriptWithData 
+    ,   txPayToScriptWithData
     ,   txPayToScriptWithReference
     ,   txPayToScriptWithDataAndReference
     ,   txPayToWithReference
@@ -78,7 +78,7 @@ module Cardano.Kuber.Api(
     -- Chain info Structures
     , ChainInfo (withProtocolParam ,withDetails,getNetworkId ,getConnectInfo)
     , ChainConnectInfo(..)
-    , DetailedChainInfo(dciProtocolParams,DetailedChainInfo)
+    , DetailedChainInfo(..)
     , ChainInfoWithProtocolParams
 
 
