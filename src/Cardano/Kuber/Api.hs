@@ -11,6 +11,7 @@ module Cardano.Kuber.Api(
 
     -- minting related
     ,   txMintSimpleScript
+    ,   txMintPlutusScript
 
     -- inputs to the transaction
     ,   txConsumeTxIn
